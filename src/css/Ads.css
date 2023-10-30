@@ -1,0 +1,13 @@
+.topads{
+    height: 2em;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.topads a{
+    color: white;
+}

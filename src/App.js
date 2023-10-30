@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavScrollExample from './sections/Navbar';
+import Header from './sections/Header';
+import Newarrivals from './sections/Newarrivals';
+import Topselling from './sections/Topselling';
+import Footer from './sections/Footer';
+import Browse from './sections/Browse';
+import Ads from './sections/Ads';
+// import Animation from './sections/Animation';
+import Happycustomer from './sections/Happycustomer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Ads/>
+   <NavScrollExample/>
+   <Header/>
+   <Newarrivals/>
+   <Topselling/>
+   <Browse/>
+   {/* <Animation/> */}
+   <Happycustomer/>
+   <Footer/>
     </div>
   );
 }

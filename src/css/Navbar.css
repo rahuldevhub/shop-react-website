@@ -1,0 +1,21 @@
+.topnav{
+    font-family: 'Alata', sans-serif;
+    background-color: rgb(242, 240, 242);
+
+}
+
+/* style={{fontWeight: '', marginLeft:'4em', paddingRight:'2em'}} */
+
+.navtitle{
+    margin-left: 4em;
+    padding-right: 2em;
+    font-weight:900;
+}
+
+.search{
+    border-radius: 2em;
+}
+
+.me-2{
+    border-radius: 2em;
+}

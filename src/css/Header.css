@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+
+.header{
+
+    background-color: rgb(242, 240, 242);
+  
+}
+.both{
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.leftcontent{
+
+    margin-top: 5em;
+
+    justify-content:flex-end;
+    padding-left: 4em;
+    font-family: 'Alata', sans-serif;
+    text-align: left;
+   
+}
+.title{
+    
+    
+    font-weight: 700;
+    line-height: 5rem;
+    font-size: 5em;
+}
+
+.subtitle{
+   padding-top: 1em;
+   padding-bottom: 1em;
+   font-weight: 100; 
+    font-size: 1rem;
+}
+
+.shopnow{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 4rem;
+    width: 15rem;
+    height: 4rem;
+}
+
+.countup{
+     
+    font-weight: 700;
+    line-height: 4rem;
+    font-size: 2em;
+}
+.underbutton p{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.ads{   
+    font-family: 'Alata', sans-serif;
+    width: 100%;
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.ads marquee{ 
+    font-family: 'Alata', sans-serif;
+   background-color: black;
+}
